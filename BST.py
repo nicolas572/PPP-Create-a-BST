@@ -32,7 +32,7 @@ class BST:
             self.print_tree(node.left, level + 1)
 
     def add(self, node):
-      if type(node) != int and tpye(node) != BSTNode:
+      if type(node) != int and type(node) != BSTNode:
         raise ValueError('Invalid Type/Value')
       
       if type(node) == int:
